@@ -1,4 +1,5 @@
-node_exporter-1.8.2.linux-amd64.tar.gz
+wget https://github.com/prometheus/node_exporter/releases/download/v1.8.2/node_exporter-1.8.2.linux-amd64.tar.gz
+
 sudo groupadd -f node_exporter
 sudo useradd -g node_exporter --no-create-home --shell /bin/false node_exporter
 sudo mkdir /etc/node_exporter
